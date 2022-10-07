@@ -202,6 +202,15 @@ body {
   width: 100%;
   background-color: #ffffff;
 }
+.parallax {
+  background-image: url("../img/1622841680_32-oir_mobi-p-nebo-more-oblaka-priroda-krasivo-foto-35.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .title-1 {
   font-weight: 500;
   font-size: 48px;
@@ -273,6 +282,7 @@ body {
   margin: 0 auto 0 auto;
   text-align: center;
   vertical-align: middle;
+  color: #000;
 }
 
 .info {
