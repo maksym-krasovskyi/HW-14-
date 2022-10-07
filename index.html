@@ -37,6 +37,25 @@
 
                 </nav>
 
+                <div class="login-popup">
+                    <button class="open-popup__btn" id="login-popup__btn">Войти</button>
+                </div>
+                <div class="popup" id="popup">
+                    <div class="popup-content">
+                        <span class="close">&times;</span>
+                        <form action="https://fom.in.ua/echo" method="post" class="form">
+                            <p class="form__label">Вход</p>
+                            <input class="form__input" type="email" placeholder="Email" name="Email" required />
+                            <input class="form__input" type="password" placeholder="Пароль" name="Password" required />
+                            <label class="lable" for="psw_save">
+                                <input class="checkbox" type="checkbox" id="psw_save" name="Save password" />
+                                Запомнить пароль
+                            </label>
+                            <button class="login-btn" type="submit">Войти</button>
+                        </form>
+                    </div>
+
+                </div>
 
             </div>
 
